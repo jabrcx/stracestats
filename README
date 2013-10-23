@@ -3,7 +3,7 @@ With its options for logging how much time is spent in each system call, it's
 also an easy way to profile i/o-bound programs and components in distributed 
 systems.  However, sometimes it can be a challenge getting the big picture from 
 all the data, without losing details (such as you do with `strace -c`).  That's 
-what stracestats is for &mdash; it aggregates and reports statistics about the 
+what stracestats is for -- it aggregates and reports statistics about the 
 system calls in the output of an strace run.
 
 Specifically, for each system call that appears it'll report:
